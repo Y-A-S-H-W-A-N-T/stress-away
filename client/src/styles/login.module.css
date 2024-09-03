@@ -1,0 +1,71 @@
+/* login.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px; /* Space between the input and user list */
+}
+
+.input {
+    padding: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(171, 67, 67);
+    width: 400px; /* Larger input box */
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 200px;
+    transition: border-color 0.3s ease;
+}
+
+
+.button {
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(171, 67, 67);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(224, 70, 70);
+    color: black;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.userList h2 {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+    background-color: rgb(171, 67, 67);
+    padding: 10px;
+}
+
+.userList h2:hover {
+    color: #005bb5;
+}

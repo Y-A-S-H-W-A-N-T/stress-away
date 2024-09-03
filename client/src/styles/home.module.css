@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh; /* Make the container take the full viewport height */
+  }
+  
+  .leftSection {
+    flex: 1;
+    padding-right: 150px;
+  }
+  
+  .heading {
+    font-size: 3.5rem;
+    color: rgb(171, 67, 67);
+    margin-bottom: 20px;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #5f6c79;
+  }
+  
+  .infoText {
+    font-size: 1.1rem;
+    color: #fdfdfd;
+  }
+  
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  
+  .linkButton {
+    display: inline-block;
+    padding: 50px 50px;
+    font-size: 1.2rem;
+    color: #f99c9b;
+    background-color: rgb(171, 67, 67);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    transition: 600ms;
+  }
+  
+  .linkButton:hover {
+    transition: 600ms;
+    color: white;
+    background-color: rgb(211, 77, 77);
+  }
+  

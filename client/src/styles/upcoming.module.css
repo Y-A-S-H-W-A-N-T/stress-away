@@ -1,0 +1,65 @@
+.upcomingContainer {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f9f9f9; /* Light text color */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .header h2 {
+    color: #f99c9b; /* Light red color for the header */
+  }
+  
+  .sessionList {
+    width: 100%;
+    max-width: 1200px; /* Max width for large screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sessionItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Slightly lighter dark background */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 1000px; /* Max width for individual session items */
+  }
+  
+  .sessionTopic {
+    flex: 2;
+  }
+  
+  .sessionDate,
+  .sessionTime,
+  .sessionEndDate,
+  .sessionEndTime {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .sessionLink {
+    color: #f99c9b; /* Light red color for the link */
+    text-decoration: none;
+    border: 1px solid #f99c9b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .sessionLink:hover {
+    background-color: #f99c9b;
+    color: #1a1a1a;
+  }
+  

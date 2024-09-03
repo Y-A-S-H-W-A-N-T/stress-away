@@ -56,7 +56,7 @@ A simple web application that integrates Google Meet for chat, voice, and video 
 - REFRESH_TOKEN = refresh-token
 - MONGOOSE_URL = mongodb-url
 
-- You can find these in Google Cloud Console.
+**You can find these in Google Cloud Console**
 
 
 ### Accessing the Application
@@ -88,13 +88,13 @@ A simple web application that integrates Google Meet for chat, voice, and video 
 ```
 ## Schema for User
 
-user :
-    - name: String
-    - sessions: [session]
+**user :**
+- name: String
+- sessions: [session]
 
-sessions : 
-    - session_topic: String
-    - session_start: String
-    - session_end: String
-    - session_link: String
+**sessions :** 
+- session_topic: String
+- session_start: String
+- session_end: String
+- session_link: String
 

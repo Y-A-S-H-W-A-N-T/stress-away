@@ -50,11 +50,11 @@ A simple web application that integrates Google Meet for chat, voice, and video 
 
 ### Environmental Variables
 
-CLIENT_ID = client-id
-CLIENT_SECRET = client-secret
-REDIRECT_URI = redirect-uri
-REFRESH_TOKEN = refresh-token
-MONGOOSE_URL = mongodb-url
+- CLIENT_ID = client-id
+- CLIENT_SECRET = client-secret
+- REDIRECT_URI = redirect-uri
+- REFRESH_TOKEN = refresh-token
+- MONGOOSE_URL = mongodb-url
 
 - You can find these in Google Cloud Console.
 
@@ -89,12 +89,12 @@ MONGOOSE_URL = mongodb-url
 ## Schema for User
 
 user :
-    name: String
-    sessions: [session]
+    - name: String
+    - sessions: [session]
 
 sessions : 
-    session_topic: String
-    session_start: String
-    session_end: String
-    session_link: String
+    - session_topic: String
+    - session_start: String
+    - session_end: String
+    - session_link: String
 

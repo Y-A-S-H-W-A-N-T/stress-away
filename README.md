@@ -2,6 +2,11 @@
 
 A simple web application that integrates Google Meet for chat, voice, and video call sessions. Users can create/join sessions and have scheduled communication through Google Meet for chat, call, or video call
 
+## YouTube Link
+
+Link to Youtube where I have explained the project. It contains the walkthrough of the project
+[YouTube Link](https://youtu.be/mIa7glIovfE)
+
 ## Features
 
 - **Session Creation:** Users can schedule sessions as well as join them.
